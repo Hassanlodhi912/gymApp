@@ -1,5 +1,6 @@
 import React from 'react'
 import gym3 from "../../img/gym3.jpg";
+import { Link } from 'react-router-dom';
 
 
 const Intro = () => {
@@ -12,7 +13,7 @@ const Intro = () => {
         </h1> 
         <p class="mb-8 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo incidunt quae ad rem reprehenderit nesciunt, perferendis sunt commodi explicabo hic! Explicabo corporis enim sit minima esse cumque, laudantium sapiente id!</p>
         <div class="flex justify-center">
-          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Get a Membership</button>
+          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"><Link to ="3">Get a membership</Link> </button>
         </div>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
